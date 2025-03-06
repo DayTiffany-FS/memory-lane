@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Tech 3"
+date:   2025-03-05 19:15:16 -0500
+categories: memory lane assignment
+---
+This is just some basic text to put on the page for now.
+
+There is a band practicing behind me. Some of it sounds funky. Just talk, Justin, 
+the words really don'tmatter.
