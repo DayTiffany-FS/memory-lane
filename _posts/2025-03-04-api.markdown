@@ -5,3 +5,12 @@ date:   2025-03-04 19:15:16 -0500
 categories: memory lane
 ---
 API's have become an integral part of any website. An API (application programming interfaces) allows different software applications to connect to each other to send and receive data. This allows users to get information more easily and quickly with less problems than if each web page had exactly one purpose or stored its database independently. This benefits sites because they can function more efficiently for the users. Without API's, developers would be left stranded with a less efficient means of getting their information to the public.
+
+<div class="post-navigation">
+  {% if page.previous %}
+    <a href="{{ page.previous.url }}" class="previous-post">Previous Post: {{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next %}
+    <a href="{{ page.next.url }}" class="next-post">Next Post: {{ page.next.title }}</a>
+  {% endif %}
+</div>

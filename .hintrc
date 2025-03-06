@@ -7,8 +7,15 @@
       "default",
       {
         "ignore": [
-          "text-size-adjust"
+          "text-size-adjust",
+          "-webkit-text-size-adjust"
         ]
+      }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
       }
     ]
   }
