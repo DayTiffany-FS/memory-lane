@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Tech 2"
-date:   2025-03-04 19:15:16 -0500
-categories: memory lane
----
-Oops, I almost forgot to change the content on this page. I am not so great at babbling but I need some test content here to get this started for my homework assignment. 
-
-I'm going to have a song stuck in my head that I don't care much for. That's what I get for marrying a musician.
