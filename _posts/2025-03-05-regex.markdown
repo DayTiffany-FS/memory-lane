@@ -1,16 +1,7 @@
 ---
-layout: post
+layout: posts
 title:  "Regex"
 date:   2025-03-05 19:15:16 -0500
 categories: memory lane assignment
 ---
 Regex is another necessity in web development. Regex, or regular expressions, are an important tool that defines a search pattern by using a sequence of characters. Regex can be a complex skill to master at first, but once it is understood and used regularly, it becomes an invaluable skill. Regex is used for validation of user inputs (like emails or passwords), searching and replacing operations in a database, extracting data from large sets of information, or SEO friendly URL matching. Regex is necessary to improving user experience and driving traffic to your site when used properly.
-
-<div class="post-navigation">
-  {% if page.previous %}
-    <a href="{{ page.previous.url }}" class="previous-post">Previous Post: {{ page.previous.title }}</a>
-  {% endif %}
-  {% if page.next %}
-    <a href="{{ page.next.url }}" class="next-post">Next Post: {{ page.next.title }}</a>
-  {% endif %}
-</div>

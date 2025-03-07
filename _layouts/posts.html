@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/main.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1><a href="{{ site.baseurl }}/">Memory Lane</a></h1>
+            <nav class="about">
+                <a href="{{ site.baseurl }}/about">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article class="post-container">
+            <h1 class="post-title">{{ page.title }}</h1>
+            <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+            <div class="post-content">
+                {{ content }}
+            </div>
+        </article>
+
+        <div class="post-navigation">
+            {% if page.previous %}
+                <a href="{{ page.previous.url | relative_url }}" class="previous-post">Previous Post: {{ page.previous.title }}</a>
+            {% endif %}
+            {% if page.next %}
+                <a href="{{ page.next.url | relative_url }}" class="next-post">Next Post: {{ page.next.title }}</a>
+            {% endif %}
+        </div>
+    </main>
+
+    <footer>
+        <p>© {{ site.time | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
