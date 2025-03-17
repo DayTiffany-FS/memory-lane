@@ -33,6 +33,8 @@ permalink: /:categories/:title/
 theme: minima
 plugins:
   - jekyll-feed
+include:
+  - images
 
 # Exclude from processing.
 # The following items will not be processed, by default.
